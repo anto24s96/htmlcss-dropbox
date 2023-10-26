@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.border{
+    border: 1px dashed black;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: lightcoral;
+    padding: 5px 15px;
+}
+
+.container-fluid{
+    width: 100%;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-50{
+    width: 50%;
+    background-color: brown;
+}
+
+.content-header{
+    height: 35px;
+}
