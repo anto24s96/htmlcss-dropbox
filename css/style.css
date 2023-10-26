@@ -144,3 +144,25 @@ header{
     height: 500px;
     background-color: rgb(226, 98, 43);
 }
+
+.col-20{
+    width: calc(100% / 5)
+}
+
+.content-footer{
+    height: 350px;
+    border: 1px dashed black;
+}
+
+footer{
+    background-color: black;
+}
+
+.language{
+    background-color: white;
+    margin-top: 80px;
+}
+
+.content-language{
+    height: 50px;
+}
