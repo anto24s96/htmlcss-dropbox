@@ -6,8 +6,62 @@
 }
 
 /* COMMON */
+.container-fluid{
+    width: 100%;
+}
+
+.container1400{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.container1000{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-20{
+    width: calc(100% / 5)
+}
+
+.col-30{
+    width: calc(100% / 3 - 35px);
+    min-height: 1030px;
+}
+
+.col-33{
+    width: calc(100% / 3 - 20px);
+}
+
+.col-40{
+    width: 40%;
+}
+
+.col-50{
+    width: 50%;
+    padding: 15px 15px;
+}
+
+.col-60{
+    width: 60%;
+}
+
+.col-100{
+    width: 100%;
+}
+
 .border{
     border: 1px dashed black;
+}
+
+.grey-border{
+    border: 1px solid grey;
 }
 
 .coral{
@@ -27,11 +81,11 @@
 }
 
 .padding{
-    padding: 40px 0;
+    padding: 50px 0;
 }
 
-.bg-grey{
-    background-color: lightgray;
+.bg-lightblue{
+    background-color: #B4CEE6;
 }
 
 .d-flex{
@@ -46,24 +100,20 @@
     justify-content: flex-end;
 }
 
+.relative{
+    position: relative;
+    top: 65px;
+    right: 100px;
+}
+
+.baseline{
+    display: flex;
+    align-items: baseline;
+}
+
 /* HEADER */
 header{
     width: 100%;
-}
-
-.container-fluid{
-    width: 100%;
-}
-
-.row{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.col-50{
-    width: 50%;
-    padding: 15px 15px;
 }
 
 .content-header{
@@ -102,46 +152,140 @@ header{
     margin-right: 0;
 }
 /* MAIN */
-.container1400{
-    max-width: 1400px;
-    margin: 0 auto;
+h1{
+    font-size: 80px;
 }
 
-.col-100{
-    width: 100%;
+.jumbo-left{
+    padding-bottom: 40px;
+}
+.free-try{
+    text-decoration: none;
+    color: white;
+    background-color: #2E60FF;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+#annulla{
+    padding-top:40px;
+}
+
+#arrow-down{
+    font-size: 50px;
+    color: black;
+    padding-top: 80px;
 }
 
 .content-jumbo-1{
-    height: 200px;
+    padding-left: 100px;
+    padding-top: 50px;
 }
 
-.col-40{
-    width: 40%;
+.jumbo2-left-padding{
+    padding-top: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
-.col-60{
-    width: 60%;
+#jumbo{
+    width: 100%;
 }
 
-.content-jumbo-2{
-    height: 450px;
-}
-
-.container1100{
-    max-width: 1100px;
-    margin: 0 auto;
-}
-
+/* BUSINNES */
 .content-price-top{
-    height: 80px;
+    padding-top: 80px;
 }
 
-.col-30{
-    width: calc(100% / 3 - 35px);
+.content-price-top h2{
+    font-size: 40px;
 }
 
-.content-price{
-    height: 850px;
+.container-checkbox{
+    padding-top: 50px;
+}
+
+.form-check-input{
+    transform: scale(1.5);
+}
+
+#flexRadioDefault2{
+    margin-left: 60px;
+}
+
+.container-businnes-plan{
+    padding: 0 28px;
+}
+
+.user{
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid grey;
+}
+
+li{
+    list-style-type: none;
+}
+
+.businnes-list-1{
+    margin-top: 25px;
+    line-height: 2;
+}
+
+.businnes-list-1 :first-child{
+    font-size: 23px;
+    font-weight: bolder;
+}
+
+.businnes-list-1 :last-child{
+    color: grey;
+    margin-bottom: 40px;
+}
+
+.businnes-list-2 li{
+    margin-bottom: 20px;
+}
+
+.businnes-list-2 li i{
+    margin-right: 5px;
+}
+
+.blue-big-button{
+    text-decoration: none;
+    background-color: #2E60FF;
+    color: white;
+    padding: 10px 25px;
+    display: inline-block;
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.shop-now{
+    padding: 40px 0;
+}
+
+.hr-businnes{
+    width: 20%;
+    color: grey;
+    margin-bottom: 50px;
+}
+
+.plan-highlights{
+    font-weight: bolder;
+}
+
+.businnes-list-3{
+    margin-top: 30px;
+}
+
+.businnes-list-3 li{
+    margin-bottom: 20px;
+}
+
+.fa-check{
+    color: #2E60FF;
+    margin-right: 5px;
 }
 
 .content-price-bot{
@@ -150,10 +294,6 @@ header{
 
 .content-mid{
     height: 500px;
-}
-
-.col-33{
-    width: calc(100% / 3 - 20px);
 }
 
 .gap{
@@ -188,17 +328,14 @@ header{
     background-color: rgb(226, 98, 43);
 }
 
-.col-20{
-    width: calc(100% / 5)
+/* FOOTER */
+footer{
+    background-color: black;
 }
 
 .content-footer{
     height: 350px;
     border: 1px dashed black;
-}
-
-footer{
-    background-color: black;
 }
 
 .language{
@@ -209,3 +346,4 @@ footer{
 .content-language{
     height: 50px;
 }
+

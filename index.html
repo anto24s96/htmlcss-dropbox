@@ -7,6 +7,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -40,39 +45,161 @@
 
     <!-- MAIN -->
     <main>
-        <div class="bg-grey border padding">
+        <div class="bg-lightblue">
             <div class="container1400">
                 <div class="row">
-                    <div class="col-100 brown border">
-                        <div class="content-jumbo-1"></div>
+                    <div class="col-100">
+                        <div class="content-jumbo-1">
+                            <h1>Tutto ciò che ti serve per il <br> lavoro, in un unico posto</h1>
+                        </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-40 coral border">
-                        <div class="content-jumbo-2"></div>
+                    <div class="col-40">
+                        <div class="content-jumbo-2 jumbo2-left-padding">
+                            <p class="jumbo-left">
+                                Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archivazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.
+                            </p>
+                            <a href="#" class="free-try ">Inizia la tua prova gratuita</a>
+                            <div id="annulla">Annulla in qualsiasi momento</div>
+                            <i class="fa-solid fa-arrow-down" id="arrow-down"></i>
+                        </div>
                     </div>
-                    <div class="col-60 coral border">
-                        <div class="content-jumbo-2"></div>
+                    <div class="col-60">
+                        <div class="content-jumbo-2">
+                            <img src="./img/jumbo.png" alt="jumbo" class="relative" id="jumbo">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         
-        <div class="container1100 padding border">
+        <!-- PIANO BUSINNES -->
+        <div class="container1000 padding">
             <div class="row">
-                <div class="col-100 border brown ">
-                    <div class="content-price-top"></div>
+                <div class="col-100">
+                    <div class="content-price-top">
+                        <h2>Trova il piano businnes che fa per te</h2>
+                        <div class="container-checkbox">
+                            <span class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                  Fatturazione mensile
+                                </label>
+                              </span>
+                              <span class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                  Fatturazione annuale
+                                </label>
+                              </span>
+                        </div>
+                    </div>
                 </div>
             </div>
+            
+            <!-- FIRST PLANE -->
             <div class="row s-between padding">
-                <div class="col-30 border coral">
-                    <div class="content-price"></div>
+                <div class="col-30 grey-border">
+                    <div class="content-price">
+                        <div class="user">
+                            <span><i class="fa-solid fa-user"></i></span>
+                            <span>Singolo</span>
+                        </div>
+                        
+                        <div class="container-businnes-plan">
+                            <ul class="businnes-list-1">
+                                <li>Professional</li>
+                                <li>&euro; 12.00</li>
+                                <li>/mese</li>
+                            </ul>
+                            <ul class="businnes-list-2">
+                                <li class="baseline"><i class="fa-solid fa-user"></i><span>1 utente</span></li>
+                                <li class="baseline"><i class="fa-solid fa-folder"></i><span>5 TB di spazio di archivazione sicuro</span></li>
+                                <li class="baseline"><i class="fa-solid fa-share-nodes"></i><span>Funzioni di produttività premium e condivisione file semplice e sicura</span></li>
+                            </ul>
+                            
+                            <a href="#" class="blue-big-button">Prova gratis per 30 giorni</a>
+                            <div class="shop-now">oppure <a href="#">acquista ora</a></div>
+                            <hr class="hr-businnes">
+                            <div class="plan-highlights">Punti Salienti del Piano</div>
+                            
+                            <ul class="businnes-list-3">
+                                <li class="baseline"><i class="fa-solid fa-check"></i>Invia file a 100 GB con Dropbox Transfert</li>
+                                <li class="baseline"><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobili</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-30 border coral">
-                    <div class="content-price"></div>
+                
+                <!-- SECOND PLANE -->
+                <div class="col-30 grey-border">
+                    <div class="content-price">
+                        <div class="user">
+                            <span><i class="fa-solid fa-users"></i></span>
+                            <span>Team</span>
+                        </div>
+                        
+                        <div class="container-businnes-plan">
+                            <ul class="businnes-list-1">
+                                <li>Advanced</li>
+                                <li>&euro; 18.00</li>
+                                <li>/utente/mese</li>
+                            </ul>
+                            <ul class="businnes-list-2">
+                                <li class="baseline"><i class="fa-solid fa-users"></i>3 o più utenti</li>
+                                <li class="baseline"><i class="fa-solid fa-folder"></i>Tutto lo spazio di cui ha bisogno il tuo team</li>
+                                <li class="baseline"><i class="fa-solid fa-share-nodes"></i>Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</li>
+                            </ul>
+                            
+                            <a href="#" class="blue-big-button">Prova gratis per 30 giorni</a>
+                            <div class="shop-now">oppure <a href="#">acquista ora</a></div>
+                            <hr class="hr-businnes">
+                            <div class="plan-highlights">Punti Salienti del Piano</div>
+                            
+                            <ul class="businnes-list-3">
+                                <li class="baseline"><i class="fa-solid fa-check"></i>Nessun limite di spazio per i file</li>
+                                <li class="baseline"><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobili</li>
+                                <li class="baseline"><i class="fa-solid fa-check"></i>Risparmio del 50% rispetto alle iscrizioni singole</li>
+                                <li class="baseline"><i class="fa-solid fa-check"></i>Possibilità di inserire nuovi membri del team</li>
+                                <li class="baseline"><i class="fa-solid fa-check"></i>Gestione dei permessi in base ai ruoli</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-30 border coral">
-                    <div class="content-price"></div>
+                
+                <!-- THIRD PLANE -->
+                <div class="col-30 grey-border">
+                    <div class="content-price">
+                        <div class="user">
+                            <span><i class="fa-solid fa-building"></i></span>
+                            <span>Azienda</span>
+                        </div>
+                        
+                        <div class="container-businnes-plan">
+                            <ul class="businnes-list-1">
+                                <li>Enterprise</li>
+                                <li>Contattaci</li>
+                                <li>-</li>
+                            </ul>
+                            <ul class="businnes-list-2">
+                                <li class="baseline"><i class="fa-solid fa-user"></i>10 o più utenti</li>
+                                <li class="baseline"><i class="fa-solid fa-folder"></i>Soluzioni personalizzabili per la tua azienza</li>
+                                <li class="baseline"><i class="fa-solid fa-share-nodes"></i>Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</li>
+                            </ul>
+                            
+                            <a href="#" class="blue-big-button">Prova gratis per 30 giorni</a>
+                            <div class="shop-now">oppure <a href="#">acquista ora</a></div>
+                            <hr class="hr-businnes">
+                            <div class="plan-highlights">Punti Salienti del Piano</div>
+                            
+                            <ul class="businnes-list-3">
+                                <li class="baseline"><i class="fa-solid fa-check"></i>Cartelle offline su più dispositivi</li>
+                                <li class="baseline"><i class="fa-solid fa-check"></i>Servizio assistenza 24/h</li>
+                                <li class="baseline"><i class="fa-solid fa-check"></i>Possibilità di personalizzazione totale</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="row">
@@ -83,7 +210,7 @@
             </div>
         </div>
 
-        <div class="container1100 padding border">
+        <div class="container1000 padding border">
             <div class="row">
                 <div class="col-60 border coral">
                     <div class="content-mid"></div>
@@ -94,7 +221,7 @@
             </div>
         </div>
 
-        <div class="container1100 padding border">
+        <div class="container1000 padding border">
             <div class="row gap">
                 <div class="col-33 border coral">
                     <div class="content-bot"></div>
@@ -150,7 +277,7 @@
             </div>
         </div>
 
-        <div class="container1100 padding">
+        <div class="container1000 padding">
             <div class="questions border"></div>
         </div>
     </main>
