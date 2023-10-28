@@ -86,6 +86,7 @@
 
 .bg-lightblue{
     background-color: #B4CEE6;
+    padding: 120px 0;
 }
 
 .d-flex{
@@ -97,6 +98,10 @@
 }
 
 .flex-end{
+    justify-content: flex-end;
+}
+
+.j-content-end{
     justify-content: flex-end;
 }
 
@@ -459,8 +464,20 @@ li{
     margin-bottom: 40px;
 }
 
-.cube-subtitle{
-    height: 250px;
+.bg-grey{
+    background-color: grey;
+}
+
+#cube-bot-title{
+    color: #60142f;
+}
+
+#button-try-white{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    display: inline-block;
+    padding: 10px 20px;
 }
 
 .questions{
