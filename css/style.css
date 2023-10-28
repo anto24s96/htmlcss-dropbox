@@ -480,9 +480,30 @@ li{
     padding: 10px 20px;
 }
 
+/* SEZIONE DOMANDE */
 .questions{
-    height: 500px;
-    background-color: rgb(226, 98, 43);
+    padding: 140px 0;
+}
+
+#questions-title{
+    margin-bottom: 50px;
+}
+
+.container-questions{
+    align-items: baseline;
+    padding: 35px 0;
+}
+
+.questions-text{
+    font-weight: bolder;
+}
+
+#arrow-questions{
+    margin-left: 300px;
+}
+
+.hr-questions{
+    border: 1px solid lightgray;
 }
 
 /* FOOTER */
