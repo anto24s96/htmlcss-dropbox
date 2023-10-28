@@ -111,6 +111,11 @@
     align-items: baseline;
 }
 
+.margin-top-30{
+    margin-top: 30px;
+    width: 100%;
+}
+
 /* HEADER */
 header{
     width: 100%;
@@ -214,7 +219,7 @@ h1{
 }
 
 .container-businnes-plan{
-    padding: 0 28px;
+    padding: 30px 28px;
 }
 
 .user{
@@ -228,7 +233,7 @@ li{
 }
 
 .businnes-list-1{
-    margin-top: 25px;
+    /* margin-top: 25px; */
     line-height: 2;
 }
 
@@ -256,8 +261,6 @@ li{
     color: white;
     padding: 10px 25px;
     display: inline-block;
-    margin-top: 30px;
-    width: 100%;
     text-align: center;
 }
 
@@ -288,8 +291,28 @@ li{
     margin-right: 5px;
 }
 
+.content-price-bot-1 :first-child{
+    font-size: 23px;
+    font-weight: bolder;
+}
+
 .content-price-bot{
-    height: 200px;
+    width: 100%;
+}
+
+.content-price-bot-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pricebot-text-1{
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+.pricebot-text-2{
+    margin-top: 45px;
 }
 
 .content-mid{
