@@ -81,7 +81,7 @@
 }
 
 .padding{
-    padding: 50px 0;
+    padding: 70px 0;
 }
 
 .bg-lightblue{
@@ -315,8 +315,28 @@ li{
     margin-top: 45px;
 }
 
-.content-mid{
-    height: 500px;
+/* MID SECTION */
+#partner-image{
+    width: 100%;
+}
+
+.content-mid-2{
+    padding: 50px;
+}
+
+.content-mid-2 :first-child{
+    font-size: 23px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.content-mid-2 :last-child{
+    text-decoration: none;
+    color: grey;
+    border: 2px solid gray;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px;
 }
 
 .gap{
