@@ -56,20 +56,8 @@
     width: 100%;
 }
 
-.border{
-    border: 1px dashed black;
-}
-
 .grey-border{
     border: 1px solid grey;
-}
-
-.coral{
-    background-color: lightcoral;
-}
-
-.brown{
-    background-color: brown;
 }
 
 .lightblue{
@@ -78,6 +66,10 @@
 
 .white{
     background-color: white;
+}
+
+.white-text{
+    color: white;
 }
 
 .s-between{
@@ -95,6 +87,10 @@
 
 .d-flex{
     display: flex;
+}
+
+.d-inline-block{
+    display: inline-block;
 }
 
 .align-items{
@@ -183,10 +179,8 @@ h1{
 }
 .free-try{
     text-decoration: none;
-    color: white;
     background-color: #2E60FF;
     padding: 10px 15px;
-    display: inline-block;
 }
 
 #annulla{
@@ -271,9 +265,7 @@ li{
 .blue-big-button{
     text-decoration: none;
     background-color: #2E60FF;
-    color: white;
     padding: 10px 25px;
-    display: inline-block;
     text-align: center;
 }
 
@@ -347,7 +339,6 @@ li{
     text-decoration: none;
     color: grey;
     border: 2px solid gray;
-    display: inline-block;
     margin-top: 30px;
     padding: 10px;
 }
@@ -374,7 +365,6 @@ li{
 }
 
 .card-bottom-section :last-child{
-    display: inline-block;
     margin-top: 60px;
     margin-bottom: 80px;
 }
@@ -386,8 +376,8 @@ li{
 }
 
 .small-cube{
-    width: calc(100% / 2);
-    height: calc(100% / 2);
+    width: 50%;
+    height: 50%;
     float: left;
 }
 
@@ -480,7 +470,6 @@ li{
     text-decoration: none;
     color: black;
     background-color: white;
-    display: inline-block;
     padding: 10px 20px;
 }
 
@@ -519,12 +508,10 @@ footer{
     font-size: 25px;
     font-weight: bolder;
     margin-bottom: 25px;
-    color: white;
 }
 
 .footer-list li a{
     line-height: 2;
-    color: white;
     text-decoration: none;
 }
 
@@ -542,15 +529,12 @@ footer{
 }
 
 .container-language{
-    color: white;
     margin-top: 50px;
     align-items: baseline;
 }
 
 #language{
-    display: inline-block;
     text-decoration: none;
-    color: white;
     margin-left: 10px;
     margin-right: 6px;
 }
