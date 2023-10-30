@@ -219,12 +219,18 @@ h1{
 
 .form-check-input{
     transform: scale(1.5);
+    accent-color: #2E60FF;
+}
+
+.form-check-label{
+    margin-left: 5px;
 }
 
 #flexRadioDefault2{
     margin-left: 60px;
 }
 
+/* PLAN */
 .container-businnes-plan{
     padding: 30px 28px;
 }
@@ -260,6 +266,10 @@ li{
 
 .businnes-list-2 li i{
     margin-right: 5px;
+}
+
+.cost{
+    font-weight: bolder;
 }
 
 .blue-big-button{
@@ -335,9 +345,13 @@ li{
     margin-bottom: 20px;
 }
 
+#content-mid-2-text{
+    color: gray;
+}
+
 .content-mid-2 :last-child{
     text-decoration: none;
-    color: grey;
+    color: gray;
     border: 2px solid gray;
     margin-top: 30px;
     padding: 10px;
